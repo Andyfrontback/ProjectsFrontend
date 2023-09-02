@@ -1,0 +1,86 @@
+*{box-sizing: border-box;}
+
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+html, body {
+    height: 100%;
+    font-family: 'roboto';
+    color: #36454f;
+    background-color: hsla(55, 100%, 90%, 1);
+}
+
+
+main {
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    flex-direction: column;
+}
+
+img {
+    width: 500px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color:#e3627f;
+}
+
+a:hover {
+    text-decoration:underline;
+    color:#d12a4e;
+}
+
+h1{
+    font-weight: bold;
+    font-size: 48px;
+}
+
+div.contenedor {
+    display: flex;
+    flex-direction: row;
+    background-color: hsla(240, 60%, 94%, 1);
+    justify-content: center;
+    width: 100%
+}
+
+div.art {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: hsla(350, 100%, 85%, 1);
+}
+
+div.img{
+    background-color: hsla(140, 100%, 85%, 1);
+    padding: 2rem;
+    text-align: center;
+}
+
+div.artic{
+    display: flex;
+    align-items: stretch;
+    background-color: hsla(197, 69%, 73%, 1);
+    padding: 5rem;
+}
+
+div.text{
+    text-align: center;
+    background-color: beige;
+}
+
+div#texto{
+    display: flex;
+    align-items: center;
+    background-color: hsla(240, 60%, 94%, 1);
+}
+
+div#total {
+    background-color: hsla(240, 60%, 94%, 1);
+    width: 100%;
+}
